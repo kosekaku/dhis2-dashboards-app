@@ -28,6 +28,7 @@ A React application that fetches and renders the list of dashboards available to
    b. Some dashboard items (like visualization and map) are expensive to
    render, so make sure there are no unnecessary re-renders
 
+
 ## Tools
 
 > React
@@ -37,6 +38,11 @@ A React application that fetches and renders the list of dashboards available to
 > DHIS2 UI Library
 
 > Restful APIs
+
+## Design Choices
+1. Use of react-query. Managing API data fetching to provide caching, and handling loading, error, and success states to users.
+2. Data Fetching. Use asynchronous functions to fetch data from API endpoints.
+3. Types. Use type assertions (as unknown as) to specify the unexpected data shape when parsing JSON responses.
 
 ## Available Scripts
 
