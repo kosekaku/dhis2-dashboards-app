@@ -2,7 +2,7 @@
 
 A React application that fetches and renders the list of dashboards available to a DHIS2 user
 
-## Demo [link]('https://dhis2-dashboards-app.vercel.app/')
+## App Demo link [link](https://dhis2-dashboards-app.vercel.app/)
 
 ## Specifications
 
