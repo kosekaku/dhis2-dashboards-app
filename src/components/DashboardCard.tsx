@@ -100,6 +100,7 @@ const DashboardCard = ({
           }}
         >
           <div
+            data-testid='star-button1'
             style={{ paddingRight: FAVOURITE_MARGIN }}
             onClick={() => handleFavourite(dashboard)}
           >

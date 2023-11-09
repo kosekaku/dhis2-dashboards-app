@@ -52,6 +52,8 @@ Launches the test runner
 
 Builds the app for production to the `build` folder
 
+## Design choices / assumptions
+
 ## Contributions guide
 
 Fork this repository and then make a pull request to this repo.

@@ -5,7 +5,7 @@ import {
   MAP_OPTION,
   TEXT_OPTION,
   VISUALIZATION_OPTION,
-} from '../constants/dashboardCard';
+} from '../../constants/dashboardCard';
 
 // Interface FilterSelectProps for filter options
 interface FilterSelectProps {
