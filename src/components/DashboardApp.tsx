@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import DashboardList from './DashboardList';
-import FilterSelect from './FilterSelect';
+import FilterSelect from './FilterSelect/FilterSelect';
 
 const DashboardApp = () => {
   const [expandedDashboardId, setExpandedDashboardId] = useState<string | null>(

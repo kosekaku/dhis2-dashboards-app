@@ -2,8 +2,12 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Renders an h1 element with text "DHIS2 Dashboards"', () => {
   render(<App />);
-  const linkElement = screen.getByText(/DHIS2 Dashboards/1h);
-  expect(linkElement).toBeInTheDocument();
+  const h1Element = screen.getByRole('heading', {
+    level: 1,
+    name: 'DHIS2 Dashboards',
+  });
+
+  expect(h1Element).toBeInTheDocument();
 });
